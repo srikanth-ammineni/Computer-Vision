@@ -7,11 +7,6 @@ the corresponding ones in another image. After this, you can simply stitch the t
 by aligning the matched feature points.
 For simplicity, the input two images are only clipped along the horizontal direction, which
 means you only need to find the corresponding features in the same rows to achieve image stiching.
-
-Do NOT modify the code provided to you.
-You are allowed use APIs provided by numpy and opencv, except “cv2.findHomography()” and
-APIs that have “stitch”, “Stitch”, “match” or “Match” in their names, e.g., “cv2.BFMatcher()” and
-“cv2.Stitcher.create()”.
 """
 import cv2
 import numpy as np
